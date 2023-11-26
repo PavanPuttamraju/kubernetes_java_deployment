@@ -39,4 +39,4 @@ spec:
             path: /health
             port: 8030
           initialDelaySeconds: 60
-          timeoutSeconds: 20
+          timeoutSeconds: 5
