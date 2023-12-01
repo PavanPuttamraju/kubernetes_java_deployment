@@ -36,7 +36,7 @@ spec:
         - containerPort: 8030
         livenessProbe:
           httpGet:
-            path: /healthcheckSM
+            path: /stockmanagerhealthcheck
             port: 8030
-          initialDelaySeconds: 30
-          timeoutSeconds: 1
+          initialDelaySeconds: 50
+          timeoutSeconds: 10
